@@ -34,7 +34,7 @@ jc = {'bbb.ccc': 3000}
 // so then we can update the ja only this little change
 eval( 'ja.' + Object.keys(jc)[0] + ' = jc["' + Object.keys(jc)[0] + '"]' )
 
-// then the ja.bbb.ccc got updated from 2000 to 3000 value
+// this is like when we do manually: ja.bbb.ccc = jc['bbb.ccc'] so the value changes from 2000 to 3000
 
 ```
 
