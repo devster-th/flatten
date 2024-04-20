@@ -37,3 +37,6 @@ eval( 'ja.' + Object.keys(jc)[0] + ' = jc["' + Object.keys(jc)[0] + '"]' )
 // then the ja.bbb.ccc got updated from 2000 to 3000 value
 
 ```
+
+# test note
+this thing can go down all level if you have 100 or more it will just deep down for every of your properties.
