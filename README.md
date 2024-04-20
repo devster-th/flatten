@@ -6,6 +6,8 @@ there're occasions we not update the whole object but we do only some fields, th
 ```
 // import it
 const fl = require('./flatten.js')
+<script src="flatten.js"></script> //for browser
+<script src="https://cdn.jsdelivr.net/gh/devster-th/flatten/flatten.js"></script>  //for cdn
 
 // if we have an object like ja
 let ja = {
@@ -24,6 +26,7 @@ let jb = {
 
 // so we flatten the jb
 let jc = fl.flat.$(jb)
+let jc = flat.$(jb)   //for browser
 
 // and we get
 jc = {'bbb.ccc': 3000}
