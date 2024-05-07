@@ -1,5 +1,5 @@
 # flatten
-flattening the object
+flattening the object, says if we have object like {aaa:{bbb:{ccc:{ddd:55555}}}} we flatten it to {'aaa.bbb.ccc.ddd':55555}
 # use
 there're occasions we not update the whole object but we do only some fields, this thing will help
 
